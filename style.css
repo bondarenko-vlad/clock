@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+#clock {
+	font-size: 100px;
+
+}
+
+body {
+  
+	text-align: center;
+	font-weight: 800;
+	font-family: Merriweather Sans;
+	margin-top: 250px;
+ }
+ button{
+   padding: 20px;
+   background-color: white;
+   font-weight: 900
+ }
+
+ @media (max-width:590px){
+	 button{
+		 padding: 5px;
+	 }
+	 body{
+		margin-top: 100px;
+	 }
+	 #clock {
+		font-size: 30px;
+	
+	}
+ }
